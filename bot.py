@@ -2,7 +2,7 @@ import os
 import telebot
 
 # Bot tokenini shu yerga yozasiz (yoki Render muhitidan olingan o'zgaruvchi orqali)
-TOKEN = os.getenv('BOT_TOKEN', 'SIZNING_BOT_TOKENINGIZ')
+TOKEN = os.getenv('BOT_TOKEN', '8553449044:AAHTUQ_cuGutLiGjOo-RFQA8gmEbh_nLlP4')
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start', 'help'])
